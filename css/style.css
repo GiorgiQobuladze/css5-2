@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    background: #07081A;
+    padding-bottom: 64px;
+}
+
+.header {
+    padding: 28px 0;
+    border-bottom: 1px solid #261C51;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-block {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.image-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-text {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+.projects-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #242642;
+    padding: 40px 72px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 162px;
+}
+
+.project-number {
+    color: #8CE900;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.project-text {
+    color: #C0C0C0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-desing {
+    max-width: 264px;
+    color: #C0C0C0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 136px;
+}
+
+.footer-left-block {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.footer-ul {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.footer-link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.active {
+    color: #8CE900;
+}
